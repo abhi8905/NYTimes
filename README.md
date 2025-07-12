@@ -98,7 +98,7 @@ You must set your API key in `Secrets.xcconfig` or `Info.plist`:
 ### Step 1: Add `nytkit` via Swift Package Manager
 
 1. In Xcode, open **File > Add Packages...**
-2. Enter your Git URL (e.g. `https://github.com/your-org/nytkit.git`)
+2. Enter your Git URL (e.g. `https://github.com/abhi8905/nytkit.git`)
 3. Choose the version or branch
 4. Add to your UIKit target under **Frameworks, Libraries, and Embedded Content**
 

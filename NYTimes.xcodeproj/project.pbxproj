@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3874F15E2E20570100F4138A /* NYTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3874F15D2E20570100F4138A /* NYTKit */; };
+		38F33DA22E2284B5003A38AF /* NYTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 38F33DA12E2284B5003A38AF /* NYTKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3874F15E2E20570100F4138A /* NYTKit in Frameworks */,
+				38F33DA22E2284B5003A38AF /* NYTKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +135,7 @@
 			name = NYTimes;
 			packageProductDependencies = (
 				3874F15D2E20570100F4138A /* NYTKit */,
+				38F33DA12E2284B5003A38AF /* NYTKit */,
 			);
 			productName = NYTimes;
 			productReference = 38A0AAAC2E2014A800941D6C /* NYTimes.app */;
@@ -217,7 +220,7 @@
 			mainGroup = 38A0AAA32E2014A800941D6C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				3874F15C2E20570100F4138A /* XCLocalSwiftPackageReference "../NYTKit" */,
+				38F33DA02E2284B5003A38AF /* XCRemoteSwiftPackageReference "NYTKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 38A0AAAD2E2014A800941D6C /* Products */;
@@ -587,16 +590,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		3874F15C2E20570100F4138A /* XCLocalSwiftPackageReference "../NYTKit" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../NYTKit;
+/* Begin XCRemoteSwiftPackageReference section */
+		38F33DA02E2284B5003A38AF /* XCRemoteSwiftPackageReference "NYTKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/abhi8905/NYTKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		3874F15D2E20570100F4138A /* NYTKit */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = NYTKit;
+		};
+		38F33DA12E2284B5003A38AF /* NYTKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38F33DA02E2284B5003A38AF /* XCRemoteSwiftPackageReference "NYTKit" */;
 			productName = NYTKit;
 		};
 /* End XCSwiftPackageProductDependency section */
